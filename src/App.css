@@ -1,0 +1,277 @@
+.App {
+  font-size: 18px;
+}
+
+.wp {
+  margin: 0 50px;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black
+}
+
+.blue-btn {
+  border: 1px solid blue;
+  width: 200px;
+  border-radius: 50px;
+  padding-left: 20px;
+  margin: 50px 0 0 0;
+  display: flex;
+}
+
+h4 {
+  padding-left: 10px;
+  font-size: 15px;
+  font-weight: 550;
+}
+
+.header h1 {
+  font-size: 50px;
+  margin: 0;
+  padding: 0;
+  color: rgb(77, 77, 248);
+}
+
+.header p {
+  font-size: 10px;
+  margin: 10px 0 0 0;
+  padding: 0;
+  color: rgb(77, 77, 248);
+}
+
+.about {
+  display: flex;
+}
+
+.about-left {
+  margin-top: 40px;
+  width: 50%;
+}
+
+.about-left ul {
+  margin-top: 50px;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* border: 2px solid red; */
+}
+
+.about-left li {
+  width: 48%;
+  /* border: 1px solid black; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 5px 0;
+  /* position: relative; */
+}
+
+.about-left li:hover {
+  opacity: .6;
+  cursor: pointer;
+}
+
+.about-left li p {
+  color: rgb(77, 77, 248);
+}
+
+.about-left .main {
+  padding-left: 20px;
+  margin-top: 50px;
+}
+
+.about-left .main-text p {
+  font-size: 30px;
+  font-weight: 900;
+  letter-spacing: 10px;
+}
+
+.about-left .main h3 {
+  font-size: 15px;
+  font-weight: 100;
+  margin: 0;
+  padding: 0;
+}
+
+.about-left .main p {
+  margin: 0;
+  padding: 0;
+}
+
+.about-left .main h5 {
+  width: 80%;
+  position: relative;
+  top: -50px;
+  display: none;
+  font-size: 15px;
+  font-weight: 100;
+  margin: 0;
+  padding: 5px 0;
+  transition: all 0.5s;
+}
+
+.about-left li.is-show h5 {
+  display: block;
+  top: 0;
+}
+
+.blueImage {
+  width: 20%;
+}
+
+/* about-right */
+
+.about-right {
+  width: 50%;
+  margin-top: 100px;
+}
+
+.about-right .about-img {
+  position: relative;
+}
+
+.about-right img {
+  display: block;
+  margin-left: auto;
+  width: 90%;
+}
+
+.about-right .aboutMiniImage {
+  position: absolute;
+  width: 20%;
+  bottom: -50px;
+  left: 170px;
+}
+
+/* NEWS */
+
+.news {
+  position: relative;
+  margin-top: 140px;
+}
+
+.allNews {
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+  margin-top: 120px;
+  background-color: rgb(213, 250, 250);
+}
+
+.news .news-left {
+  width: 20%;
+  padding: 100px 0 0 20px;
+}
+
+.news-left p {
+  color: rgb(77, 77, 248);
+}
+
+.news ul {
+  padding: 0;
+}
+
+.news-left ul li {
+  margin: 5px 0;
+}
+
+/* .news-right */
+.news-right {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 70px 0;
+  width: 80%;
+}
+
+.news-right article {
+  width: 25%;
+  padding: 20px 20px;
+}
+
+.news-text a {
+  display: block;
+  font-size: 10px;
+  border: 1px solid rgb(77, 77, 248);
+  color: rgb(77, 77, 248);
+  border-radius: 30px;
+  width: 80px;
+  padding: 3px;
+}
+
+.news-text p {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.news-img {
+  position: relative;
+}
+
+.news-img img {
+  /* border-shadow:; */
+  width: 250px;
+}
+
+.news-img p {
+  position: absolute;
+}
+
+/* .news-left */
+
+.news .header {
+  position: absolute;
+  top: -35px;
+  left: 50px;
+}
+
+/* business */
+
+.business {
+  margin-top: 80px;
+  margin-bottom: 120px;
+}
+
+.business-text {
+  margin-top: 50px;
+  padding: 0 20px;
+  display: flex;
+}
+
+.business ul {
+  display: flex;
+  padding: 20px 0 0 0;
+}
+
+.business ul li {
+  /* border: 1px solid red; */
+  position: relative;
+}
+
+.business ul li p {
+  position: absolute;
+  bottom: 0;
+  left: 20px;
+  color: white;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.business ul li img {
+  width: 100%;
+}
+
+.business-text h2 {
+  width: 50%;
+}
+
+.business-text p {
+  width: 50%;
+  font-size: 15px;
+}
